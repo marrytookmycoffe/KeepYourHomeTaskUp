@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Source
 {
-    interface ITimeRange : ITime
+    public class TimePoint : Time, ITimePoint
     {
-        DateTime Start { get; set; }
-        DateTime End { get; set; }
+
     }
 }

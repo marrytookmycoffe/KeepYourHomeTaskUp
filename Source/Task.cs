@@ -7,8 +7,9 @@ using System.Globalization;
 
 namespace Source
 {
-    public class Task
+    public class Task: ObjectName
     {
-
+        public Time Time { get; set; }
+        public Guid Room_Id { get; set; }
     }
 }

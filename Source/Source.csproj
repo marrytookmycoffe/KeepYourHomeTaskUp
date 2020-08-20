@@ -44,9 +44,14 @@
     <Compile Include="Interfaces\Time\ITimePoint.cs" />
     <Compile Include="Interfaces\Time\ITimeRange.cs" />
     <Compile Include="Interfaces\Basic\IObjectName.cs" />
+    <Compile Include="ObjectName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room.cs" />
     <Compile Include="Task.cs" />
     <Compile Include="Interfaces\Time\ITime.cs" />
+    <Compile Include="Time\Time.cs" />
+    <Compile Include="Time\TimePoint.cs" />
+    <Compile Include="Time\TimeRange.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

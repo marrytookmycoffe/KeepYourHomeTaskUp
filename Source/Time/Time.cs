@@ -7,10 +7,9 @@ using System.Globalization;
 
 namespace Source
 {
-    public interface IObjectName
+    public abstract class Time : ITime
     {
-        string Name { get; set; }
-        string Title { get; set; }
-        //RegionInfo UserRegion { get; set; }
+        public DateTime Start { get; set; }
+        public DateTime RepatTime { get; set; }
     }
 }
