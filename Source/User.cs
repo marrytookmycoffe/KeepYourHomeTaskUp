@@ -7,10 +7,11 @@ using System.Globalization;
 
 namespace Source
 {
-    public interface IObjectIdentity
+    public class User : ObjectIdentity, IUser
     {
-        string Name { get; set; }
-        string Title { get; set; }
-        string Description { get; set; }
+        /// <summary>
+        /// sign of a user, uniq sign
+        /// </summary>
+        public string Mask { get; set; }
     }
 }

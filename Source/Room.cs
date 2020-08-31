@@ -7,8 +7,10 @@ using System.Globalization;
 
 namespace Source
 {
-public class Room: ObjectName
+    public class Room : ObjectIdentity
     {
-
+        public Guid Building_Id { get; set; }
+        public string RoomType { get; set; }
+        public float Level { get; set; }
     }
 }

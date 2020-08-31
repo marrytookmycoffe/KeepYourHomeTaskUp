@@ -1,13 +1,12 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
 
-namespace Source
+namespace Infrastructure.DTO
 {
-    public class ObjectIdentity : ObjectId,  IObjectIdentity
+    public class TaskDataDTO
     {
         public string Name { get; set; }
         public string Title { get; set; }

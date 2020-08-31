@@ -7,10 +7,8 @@ using System.Globalization;
 
 namespace Source
 {
-    public interface IObjectIdentity
+    public class Building : ObjectIdentity
     {
-        string Name { get; set; }
-        string Title { get; set; }
-        string Description { get; set; }
+
     }
 }
